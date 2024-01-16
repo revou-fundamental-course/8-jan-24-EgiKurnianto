@@ -45,7 +45,7 @@ main p {
     margin: auto;
 }
 
-.luas .judul {
+.luas  .judul {
     font-size: larger;
     font-weight: 900;
 }
@@ -56,7 +56,12 @@ img {
     margin-right: auto;
     width: 20%;
 }
-t
+
+.keliling .judul {
+    font-size: larger;
+    font-weight: 900;
+}
+
 .hitung h2{
     text-align: center;
 }
@@ -67,7 +72,7 @@ t
     padding: 5px;
 }
 
-#hitung {
+#luas, #keliling {
     margin-top: 5px;
     margin-left: 10px;
     width: 10%;

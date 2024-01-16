@@ -13,7 +13,7 @@
         </div>
     </header>
 
-    <main> 
+    <main id="container"> 
         <p class="intro">SELAMAT DATANG DI KAPER</p>
         <P>halo semua, welcome to kaper</P>
         <p>ini adalah sebuah website untuk menghitung luas dan keliling persegi</p>
@@ -27,13 +27,31 @@
             <p>S= Sisi</p>
         </div>
 
-    <div class="hitung">
-        <h2>HITUNG LUAS PERSEGI</h2>
-        <input type="text" placeholder="Nilai sisi" maxlength="100000" id="sisi" name="sisi">
-        <input type="button" value="Hitung" id="hitung" name="hitung">
-        <input type="button" value="Reset" id="reset" name="reset">
-    </div>
+        <div class="hitung">
+            <h2>HITUNG LUAS PERSEGI</h2>
+            <input type="text" placeholder="Nilai sisi" maxlength="100000" id="sisi" name="sisi">
+            <button onclick="hitungLuas()" id="luas">Hitung</button>
+            <input type="button" value="Reset" id="reset" name="reset">  <br>
+            <div id="txtLuas"></div>
+        </div>
 
+        <div class="keliling">
+            <p class="judul">KELILING PERSEGI</p>
+            <img src="assets/persegi.png" alt="persegi">
+            <p>Rumus keliling dari persegi adalah <img src="assets/Screenshot 2024-01-12 173644.png" alt="rumus luas persegi"></p>
+            <p>Dimana: </p>
+            <p>K= Keliling</p>
+            <p>S= Sisi</p>
+        </div>
+
+        <div class="hitung">
+            <h2>HITUNG KELILING PERSEGI</h2>
+            <input type="text" placeholder="Nilai sisi" maxlength="100000" id="sisi" name="sisi">
+            <button onclick="hitungKeliling()" id="keliling">Hitung</button>
+            <input type="button" value="Reset" id="reset" name="reset">  <br>
+            <div id="txtKeliling"></div>
+        </div>
     </main>
+    <script src="js/index.js"></script>
 </body>
 </html>
